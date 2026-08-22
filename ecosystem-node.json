@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "nodeId": "empty-app-design",
+  "name": "Empty App Design",
+  "role": "source-reference",
+  "status": "source-reference",
+  "repositoryUrl": "https://github.com/iwilliamimustbe-cmd/Empty-App-Design",
+  "entryPoint": "Reusable workspace and multi-tenant design source",
+  "validation": ["Source review before selective reuse"],
+  "dataBoundary": "Does not own Network runtime data; compatible concepts are reimplemented in the Network stack.",
+  "integration": { "outbound": ["repository source reference"], "inbound": ["selective approved component reuse"] }
+}
